@@ -8,7 +8,7 @@ username = "username"
 password = "password"
 
 if len(sys.argv) <= 1:
-    print("Usage: " + sys.argv[0] + "hostname [ip]")
+    print("Usage: " + sys.argv[0] + " hostname [ip]")
     sys.exit(1);
 
 hostname = sys.argv[1]
